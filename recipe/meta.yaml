@@ -1,5 +1,5 @@
 {% set name = "pyexpander" %}
-{% set version = "1.10.2" %}
+{% set version = "2.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 56aacb00e1daa7b04e6488a12d2f0ca5a8d75fc6360484efacfb02322d4ed55e
+  sha256: a1ad4804851bf99fcfd467d8ad46308d6aa05cc36f6f443232cd059dada05e84
 
 build:
   noarch: python
