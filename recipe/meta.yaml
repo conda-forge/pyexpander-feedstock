@@ -17,6 +17,7 @@ build:
 requirements:
   host:
     - pip
+    - setuptools
     - python >=3.5
   run:
     - python >=3.5
@@ -27,7 +28,7 @@ test:
 
 about:
   home: https://goetzpf.bitbucket.io/pyexpander/index.html
-  license: GPL-3.0
+  license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE.txt
   summary: a powerful macro processing language
